@@ -1,5 +1,6 @@
 /* =================================================== */
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Jacquarda+Bastarda+9&display=swap');
 
 @font-face {
     font-family: Circular;
@@ -137,7 +138,105 @@ h1,h2,h3,h4,h5,h6,p,a,div,span,ul,ol{
 ====================================================================== */
 
 #lunar__bg{
-    background: red;
+    background: var(--white--color);
+    position: relative;
+    overflow: hidden;
+}
+
+#lunar__bg::after {
+    position: absolute;
+    content: url(../Image/musk__one.png);
+    top: -78px;
+    left: -102px;
+}
+
+#lunar__bg::before {
+    position: absolute;
+    content: url(../Image/Group\ __text.png);
+    bottom: -203px;
+    right: 0px;
+}
+
+#bg__lunar{
+    position: relative;
+}
+
+#bg__lunar::after{
+    position: absolute;
+    content: url(../Image/Group__left.png);
+    bottom: 800px;
+    left: 0;
+}
+
+.lunar{
+    padding: 100px 0 400px;
+}
+
+.luner__one{
+    margin: 0 auto;
+    width: 1200px;
+    height: 425.67px;
+    background: #E9FBF8;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.luner__haed{
+    position: relative;
+}
+
+.lunerOne__down {
+    position: absolute;
+    bottom: -180px;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+}
+
+.lunarDwon__body{
+    margin: 0 auto;
+    width: 873.36px;
+    height: 269.08px;
+    background: var(--white--color);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border-top: 10px solid var(--backgorund--color);
+}
+
+.lunarDwon__title{
+    color: var(--Font--color);
+    font-family: var(--Circular--font);
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.lunarDwon__text{
+    width: 717.5px;
+    margin: 0 auto;
+    color: var(--Font--color);
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+    opacity: 0.6;
+}
+
+.head--luner{
+    margin-top: 315px;
 }
 
 /* ===================================================================
@@ -341,6 +440,14 @@ h1,h2,h3,h4,h5,h6,p,a,div,span,ul,ol{
     font-weight: 700;
     line-height: 24px;
     letter-spacing: 0px;
+}
+
+.ahnaf{
+    color: var(--Font--color);
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 24px;
+    font-family: "Anta", sans-serif;
 }
 
 /* ===================================================================
